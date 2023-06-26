@@ -33,7 +33,3 @@ class BookDeatilsView extends StatelessWidget {
     );
   }
 }
-
-
-
-
