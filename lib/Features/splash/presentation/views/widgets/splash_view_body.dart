@@ -1,9 +1,7 @@
-import 'package:bookly_app/Features/home/presentation/views/home_view.dart';
 import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
-import '../../../../../contants.dart';
 import '../../../../../core/utils/assets.dart';
 import 'sliding_text.dart';
 
