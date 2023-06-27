@@ -5,7 +5,6 @@ import 'package:bookly_app/core/utils/app_router.dart';
 import 'package:bookly_app/core/utils/service_locater.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'contants.dart';
 
 void main() {
@@ -29,7 +28,7 @@ class BooklyApp extends StatelessWidget {
         BlocProvider(
           create: (context) => NewsetBooksCubit(
             getIt.get<HomeRepoImp>(),
-          ),
+          )..fetchNewsetBooks(),
         ),
       ],
       child: MaterialApp.router(
@@ -37,8 +36,8 @@ class BooklyApp extends StatelessWidget {
           debugShowCheckedModeBanner: false,
           theme: ThemeData.dark().copyWith(
             scaffoldBackgroundColor: kPrimaryColor,
-            textTheme:
-                GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
+            // textTheme:
+            //     GoogleFonts.montserratTextTheme(ThemeData.dark().textTheme),
           )),
     );
   }
