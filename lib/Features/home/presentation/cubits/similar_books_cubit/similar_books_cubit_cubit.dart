@@ -6,8 +6,8 @@ import '../../../data/repos/home_repo.dart';
 
 part 'similar_books_cubit_state.dart';
 
-class SimilarBooksCubitCubit extends Cubit<SimilarBooksCubitState> {
-  SimilarBooksCubitCubit(this.homeRepo) : super(SimilarBooksCubitInitial());
+class SimilarBooksCubit extends Cubit<SimilarBooksCubitState> {
+  SimilarBooksCubit(this.homeRepo) : super(SimilarBooksCubitInitial());
 
   final HomeRepo homeRepo;
 
