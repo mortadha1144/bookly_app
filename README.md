@@ -22,5 +22,5 @@ I received a certificate of successfully passing the course [Click Here check th
 <img src="https://github.com/mortadha1144/bookly_app/assets/105784062/172a46cc-b4f0-4975-9629-c24d817ef8bf" width="200" height="400">
 <br>
 - Book Details Screen
-<br>
+<br><br>
 <img src="https://github.com/mortadha1144/bookly_app/assets/105784062/338c797b-a43d-4c32-9d38-ec2ee2ca8e48" width="200" height="400">
